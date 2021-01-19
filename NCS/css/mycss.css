@@ -1,0 +1,17 @@
+*{padding: 0 ; margin: 0; color: #222; }
+ul, li, dl, dt, dd, ol{ list-style: none; }
+a{text-decoration: none; color: #222}
+
+#hd{position: relative;}
+
+.container{ max-width: 1280px; margin: 0 auto;}
+.logo img{width: 200px; display: block;}
+
+#gnb{float: left;}
+#gnb li{margin-right: 2em; display: inline-block; font-size: 16px;}
+
+#gnbFix{float: right;}
+#gnbFix li{ font-size: 12px;}
+
+#gnbFix, #xeicon{ float:right; clear: both;}
+#gnbFix li, #xeicon li{display: inline-block; margin-left: 2em;}
